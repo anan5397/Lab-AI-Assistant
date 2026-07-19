@@ -1,0 +1,76 @@
+[
+    {
+        "id": 47,
+        "chemical_name": "Hydrochloric acid",
+        "formula": "HCl",
+        "hazard_class": ["Corrosive","Danger"],
+        "ppe": [
+            "Safety goggles",
+            "Chemical-resistant gloves",
+            "Lab coat"
+        ],
+        "storage": ["Store in a corrosives cabinet away from alkalis.",
+        "Usually purchased as a 35-38% (w/w) solution.",
+        "Once bottles are opened, hydrogen chloride gas can leak out into the store and accelerate metal corrosion.
+Firmly close bottles after use. Older bottles of acid may not be the expected concentration.
+• Hydrogen chloride gas can also diffuse through plastic; labels on containers will fade and eventually
+disintegrate. Containers themselves may become damaged and/or the acid darkens over time. Check the
+state of containers, lids and labels on a regular basis. If required, decant solutions into fresh containers.
+• Hydrogen chloride gas reacts with ammonia and amines. A white powder (chloride salts) will deposit on
+bottles and elsewhere in the chemical store indicating (i) leaking bottles or lids (ii) acid or ammonia/amine
+vapours diffusing through plastic bottles (iii) inadequate ventilation in the store."],
+        "first_aid": {
+            "eyes": "Rinse cautiously with water for at least 15 minutes.",
+            "skin": "Remove contaminated clothing and wash with plenty of water.",
+            "inhalation": "Move to fresh air.",
+            "ingestion": "Seek immediate medical attention."
+        },
+        "cleapss_text": "Hydrochloric acid is corrosive and can cause severe skin burns and eye damage. Wear appropriate PPE. Store separately from incompatible materials.",
+        "source": "CLEAPSS HazCard 47"
+    },
+
+    {
+        "id": 2,
+        "chemical_name": "Sodium hydroxide",
+        "formula": "NaOH",
+        "cas_number": "1310-73-2",
+        "hazard_class": "Corrosive",
+        "hazard_codes": ["H314"],
+        "signal_word": "Danger",
+        "ppe": [
+            "Safety goggles",
+            "Gloves"
+        ],
+        "storage": "Store in a cool, dry place away from acids.",
+        "first_aid": {
+            "eyes": "Flush with water for at least 15 minutes.",
+            "skin": "Wash immediately with plenty of water.",
+            "inhalation": "Move to fresh air.",
+            "ingestion": "Do not induce vomiting."
+        },
+        "cleapss_text": "Sodium hydroxide causes severe burns. Avoid contact with skin and eyes. Wear protective gloves and eye protection.",
+        "source": "CLEAPSS HazCard 91"
+    },
+
+    {
+        "id": 3,
+        "chemical_name": "Ethanol",
+        "formula": "C2H5OH",
+        "cas_number": "64-17-5",
+        "hazard_class": "Flammable",
+        "hazard_codes": ["H225"],
+        "signal_word": "Danger",
+        "ppe": [
+            "Safety glasses"
+        ],
+        "storage": "Keep away from heat, sparks and open flames.",
+        "first_aid": {
+            "eyes": "Rinse with water.",
+            "skin": "Wash with soap and water.",
+            "inhalation": "Move to fresh air.",
+            "ingestion": "Seek medical advice if large quantities are swallowed."
+        },
+        "cleapss_text": "Ethanol is a highly flammable liquid and vapour. Keep containers tightly closed and away from ignition sources.",
+        "source": "CLEAPSS HazCard 40"
+    }
+]
