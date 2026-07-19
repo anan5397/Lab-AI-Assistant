@@ -11,14 +11,15 @@
         ],
         "storage": ["Store in a corrosives cabinet away from alkalis.",
         "Usually purchased as a 35-38% (w/w) solution.",
-        "Once bottles are opened, hydrogen chloride gas can leak out into the store and accelerate metal corrosion.
-Firmly close bottles after use. Older bottles of acid may not be the expected concentration.
-• Hydrogen chloride gas can also diffuse through plastic; labels on containers will fade and eventually
-disintegrate. Containers themselves may become damaged and/or the acid darkens over time. Check the
-state of containers, lids and labels on a regular basis. If required, decant solutions into fresh containers.
-• Hydrogen chloride gas reacts with ammonia and amines. A white powder (chloride salts) will deposit on
-bottles and elsewhere in the chemical store indicating (i) leaking bottles or lids (ii) acid or ammonia/amine
-vapours diffusing through plastic bottles (iii) inadequate ventilation in the store."],
+        "Once bottles are opened, hydrogen chloride gas can leak out into the store and accelerate metal corrosion.",
+        "Firmly close bottles after use. Older bottles of acid may not be the expected concentration.",
+        "Hydrogen chloride gas can also diffuse through plastic; labels on containers will fade and eventually",
+        "disintegrate. Containers themselves may become damaged and/or the acid darkens over time. Check the",
+        "state of containers, lids and labels on a regular basis. If required, decant solutions into fresh containers.",
+        "Hydrogen chloride gas reacts with ammonia and amines. A white powder (chloride salts) will deposit on",
+        "bottles and elsewhere in the chemical store indicating (i) leaking bottles or lids (ii) acid or ammonia/amine",
+        "vapours diffusing through plastic bottles (iii) inadequate ventilation in the store."],
+
         "first_aid": {
             "eyes": "Rinse cautiously with water for at least 15 minutes.",
             "skin": "Remove contaminated clothing and wash with plenty of water.",
