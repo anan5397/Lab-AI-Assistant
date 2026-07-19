@@ -7,7 +7,7 @@ from scipy.io.wavfile import write,read
 import numpy as np
 from openwakeword.model import Model
 import subprocess
-
+#CHECK IF THERE IT GOES TO GITgit commit -m "Update main.py"
 
 model = Model(inference_framework="onnx")
 
