@@ -1,0 +1,39 @@
+Sulfuric acid requires goggles, gloves, and a lab coat during handling if it is higher than 0.5 Molar. 
+Sulfuric acid can cause severe burns to skin and eyes.
+
+Hydrochloric acid should be stored in an acid cabinet.
+Hydrochloric acid may release irritating fumes.
+
+Ethanol is highly flammable and must be kept away from ignition sources.
+
+Copper sulfate may irritate the skin and eyes.
+Copper sulfate should not be ingested.
+
+Sodium hydroxide requires eye protection and gloves.
+Sodium hydroxide can cause severe skin burns.
+
+Bunsen burners should be kept on yellow flame when not in use. We use blue flame when using so it does not create too much carbon dioxide in air. 
+
+Broken glass should be disposed of in a designated sharps container.
+
+Eye wash stations should be used immediately after chemical splashes to the eyes.
+
+Sodium chloride, molecular weight is 58.44gram, 
+
+Molarity equation: M = n / V
+M = Molarity
+n = moles
+
+To calculate moles:
+n = M × V
+
+Volume should be converted into liters before calculations.
+
+Mass calculation:
+mass = moles × molar mass
+
+Sodium chloride (NaCl) molar mass = 58.44 g/mol
+
+Copper sulfate pentahydrate molar mass = 249.68 g/mol
+
+Hydrochloric acid is corrosive and requires gloves and goggles.
