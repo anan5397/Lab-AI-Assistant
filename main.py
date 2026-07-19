@@ -7,7 +7,6 @@ from scipy.io.wavfile import write,read
 import numpy as np
 from openwakeword.model import Model
 import subprocess
-#CHECK IF THERE IT GOES TO GITgit commit -m "Update main.py"
 
 model = Model(inference_framework="onnx")
 
@@ -19,7 +18,7 @@ load_dotenv(override=True)
 PIPER_EXE = r"C:\Users\anan_ra\Desktop\piper\piper.exe"
 MODEL1 = r"C:\Users\anan_ra\Desktop\piper\voices\en_US-lessac-medium.onnx"
 
-
+print("SEE IF THIS WORKS IN GITHUB")
 AI_state = "waiting for wake word"
 def speak(text):
     subprocess.run(
