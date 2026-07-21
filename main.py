@@ -12,7 +12,7 @@ model = Model(inference_framework="onnx")
 
 #FOr checking env and API keys
 #.venv\Scripts\activate for activating the environment
-load_dotenv(override=True)
+load_dotenv(override=True) #this loads the environment variables from the .env file and overrides any existing environment variables with the same name. This is useful for testing and development, as it allows you to easily switch between different configurations without having to modify your code.
 #Initialize the piper 
 
 PIPER_EXE = r"C:\Users\anan_ra\Desktop\piper\piper.exe"

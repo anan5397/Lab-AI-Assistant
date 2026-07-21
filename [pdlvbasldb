@@ -1,0 +1,44 @@
+Binary file [35m.venv/Lib/site-packages/huggingface_hub/cli/__pycache__/spaces.cpython-311.pyc[m matches
+[35m.venv/Lib/site-packages/huggingface_hub/cli/spaces.py[m[36m:[m        "hf spaces secrets add username/my-space -s [1;31mOPENAI_API_KEY[m=sk-... -s ANTHROPIC_API_KEY=sk-...",
+Binary file [35m.venv/Lib/site-packages/langchain_core/load/__pycache__/serializable.cpython-311.pyc[m matches
+[35m.venv/Lib/site-packages/langchain_core/load/serializable.py[m[36m:[m        For example, `{"openai_api_key": "[1;31mOPENAI_API_KEY[m"}`
+Binary file [35m.venv/Lib/site-packages/langsmith/__pycache__/async_client.cpython-311.pyc[m matches
+Binary file [35m.venv/Lib/site-packages/langsmith/__pycache__/client.cpython-311.pyc[m matches
+[35m.venv/Lib/site-packages/langsmith/async_client.py[m[36m:[m                references in the manifest, e.g. `{'[1;31mOPENAI_API_KEY[m': 'sk-...'}`.
+[35m.venv/Lib/site-packages/langsmith/async_client.py[m[36m:[m            a deserialized OpenAI chat model may still use `[1;31mOPENAI_API_KEY[m` from the
+[35m.venv/Lib/site-packages/langsmith/client.py[m[36m:[m_[1;31mOPENAI_API_KEY[m = "[1;31mOPENAI_API_KEY[m"
+[35m.venv/Lib/site-packages/langsmith/client.py[m[36m:[m                references in the manifest, e.g. `{'[1;31mOPENAI_API_KEY[m': 'sk-...'}`.
+[35m.venv/Lib/site-packages/langsmith/client.py[m[36m:[m            a deserialized OpenAI chat model may still use `[1;31mOPENAI_API_KEY[m` from the
+[35m.venv/Lib/site-packages/langsmith/client.py[m[36m:[m                openai_api_key=os.environ["[1;31mOPENAI_API_KEY[m"],
+[35m.venv/Lib/site-packages/langsmith/client.py[m[36m:[m            target_keys.add(_[1;31mOPENAI_API_KEY[m)
+[35m.venv/Lib/site-packages/langsmith/client.py[m[36m:[m            return "openai" if _[1;31mOPENAI_API_KEY[m in existing_keys else "anthropic"
+[35m.venv/Lib/site-packages/langsmith/client.py[m[36m:[m            api_var = _[1;31mOPENAI_API_KEY[m
+[35m.venv/Lib/site-packages/langsmith/client.py[m[36m:[m            api_var = _[1;31mOPENAI_API_KEY[m if openai_api_key else _ANTHROPIC_API_KEY
+[35m.venv/Lib/site-packages/langsmith/client.py[m[36m:[m        return "openai" if api_var == _[1;31mOPENAI_API_KEY[m else "anthropic"
+[35m.venv/Lib/site-packages/openai-2.45.0.dist-info/METADATA[m[36m:[m    api_key=os.environ.get("[1;31mOPENAI_API_KEY[m"),
+[35m.venv/Lib/site-packages/openai-2.45.0.dist-info/METADATA[m[36m:[mto add `[1;31mOPENAI_API_KEY[m="My API Key"` to your `.env` file
+[35m.venv/Lib/site-packages/openai-2.45.0.dist-info/METADATA[m[36m:[m    api_key=os.environ.get("[1;31mOPENAI_API_KEY[m"),
+[35m.venv/Lib/site-packages/openai-2.45.0.dist-info/METADATA[m[36m:[m        api_key=os.environ.get("[1;31mOPENAI_API_KEY[m"),  # This is the default and can be omitted
+[35m.venv/Lib/site-packages/openai-2.45.0.dist-info/METADATA[m[36m:[m# gets the API Key from environment variable AZURE_[1;31mOPENAI_API_KEY[m
+[35m.venv/Lib/site-packages/openai/__init__.py[m[36m:[m    return _os.environ.get("[1;31mOPENAI_API_KEY[m") is not None
+[35m.venv/Lib/site-packages/openai/__init__.py[m[36m:[m    return azure_endpoint is not None or _os.environ.get("AZURE_[1;31mOPENAI_API_KEY[m") is not None
+[35m.venv/Lib/site-packages/openai/__init__.py[m[36m:[m                "AZURE_[1;31mOPENAI_API_KEY[m"
+Binary file [35m.venv/Lib/site-packages/openai/__pycache__/__init__.cpython-311.pyc[m matches
+Binary file [35m.venv/Lib/site-packages/openai/__pycache__/_client.cpython-311.pyc[m matches
+[35m.venv/Lib/site-packages/openai/_client.py[m[36m:[m        - `api_key` from `[1;31mOPENAI_API_KEY[m`
+[35m.venv/Lib/site-packages/openai/_client.py[m[36m:[m                api_key = os.environ.get("[1;31mOPENAI_API_KEY[m")
+[35m.venv/Lib/site-packages/openai/_client.py[m[36m:[m                "Missing credentials. Please pass an `api_key`, `workload_identity`, `admin_api_key`, or set the `[1;31mOPENAI_API_KEY[m` or `OPENAI_ADMIN_KEY` environment variable."
+[35m.venv/Lib/site-packages/openai/_client.py[m[36m:[m        - `api_key` from `[1;31mOPENAI_API_KEY[m`
+[35m.venv/Lib/site-packages/openai/_client.py[m[36m:[m                api_key = os.environ.get("[1;31mOPENAI_API_KEY[m")
+[35m.venv/Lib/site-packages/openai/_client.py[m[36m:[m                "Missing credentials. Please pass an `api_key`, `workload_identity`, `admin_api_key`, or set the `[1;31mOPENAI_API_KEY[m` or `OPENAI_ADMIN_KEY` environment variable."
+Binary file [35m.venv/Lib/site-packages/openai/lib/__pycache__/azure.cpython-311.pyc[m matches
+[35m.venv/Lib/site-packages/openai/lib/azure.py[m[36m:[m        - `api_key` from `AZURE_[1;31mOPENAI_API_KEY[m`
+[35m.venv/Lib/site-packages/openai/lib/azure.py[m[36m:[m            api_key = os.environ.get("AZURE_[1;31mOPENAI_API_KEY[m")
+[35m.venv/Lib/site-packages/openai/lib/azure.py[m[36m:[m                "Missing credentials. Please pass one of `api_key`, `azure_ad_token`, `azure_ad_token_provider`, or the `AZURE_[1;31mOPENAI_API_KEY[m` or `AZURE_OPENAI_AD_TOKEN` environment variables."
+[35m.venv/Lib/site-packages/openai/lib/azure.py[m[36m:[m        - `api_key` from `AZURE_[1;31mOPENAI_API_KEY[m`
+[35m.venv/Lib/site-packages/openai/lib/azure.py[m[36m:[m            api_key = os.environ.get("AZURE_[1;31mOPENAI_API_KEY[m")
+[35m.venv/Lib/site-packages/openai/lib/azure.py[m[36m:[m                "Missing credentials. Please pass one of `api_key`, `azure_ad_token`, `azure_ad_token_provider`, or the `AZURE_[1;31mOPENAI_API_KEY[m` or `AZURE_OPENAI_AD_TOKEN` environment variables."
+[35mfrom dotenv import load_dotenv.py[m[36m:[mprint(os.getenv("[1;31mOPENAI_API_KEY[m"))
+[35mmain.py[m[36m:[m        api_key=os.getenv("[1;31mOPENAI_API_KEY[m")
+[35mold_main.py[m[36m:[m#print(os.getenv("[1;31mOPENAI_API_KEY[m"))
+[35mold_main.py[m[36m:[m    api_key=os.getenv("[1;31mOPENAI_API_KEY[m")

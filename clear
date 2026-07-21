@@ -1,0 +1,176 @@
+[35m.venv/Lib/site-packages/aiohttp/cookiejar.py[m[36m:[m        # Use 0o600 at creation time to avoid uma[1;31msk-[mdependent overexposure
+[35m.venv/Lib/site-packages/aiohttp/http_parser.py[m[36m:[m            # asteri[1;31msk-[mform,
+Binary file [35m.venv/Lib/site-packages/anyio/_core/__pycache__/_tasks.cpython-311.pyc[m matches
+[35m.venv/Lib/site-packages/anyio/_core/_tasks.py[m[36m:[m    Returned from the ta[1;31msk-[mspawning methods of :class:`TaskGroup`. Can be awaited on to
+[35m.venv/Lib/site-packages/anyio/_core/_tasks.py[m[36m:[m        The coroutine object that was passed to one of the ta[1;31msk-[mspawning methods in
+Binary file [35m.venv/Lib/site-packages/distro/__pycache__/distro.cpython-311.pyc[m matches
+[35m.venv/Lib/site-packages/distro/distro.py[m[36m:[m    "ple[1;31msk-[mrelease",
+Binary file [35m.venv/Lib/site-packages/en_chemner/en_chemner-1.0.0/tok2vec/model[m matches
+[35m.venv/Lib/site-packages/en_chemner/en_chemner-1.0.0/vocab/strings.json[m[36m:[m  "a[1;31msk-[m",
+[35m.venv/Lib/site-packages/en_chemner/en_chemner-1.0.0/vocab/strings.json[m[36m:[m  "a[1;31msk-[m-",
+[35m.venv/Lib/site-packages/en_chemner/en_chemner-1.0.0/vocab/strings.json[m[36m:[m  "g[1;31msk-[m3",
+[35m.venv/Lib/site-packages/en_chemner/en_chemner-1.0.0/vocab/strings.json[m[36m:[m  "g[1;31msk-[m3\u03b2",
+[35m.venv/Lib/site-packages/en_chemner/en_chemner-1.0.0/vocab/strings.json[m[36m:[m  "ri[1;31msk-[m",
+[35m.venv/Lib/site-packages/en_chemner/en_chemner-1.0.0/vocab/strings.json[m[36m:[m  "[1;31msk-[m",
+[35m.venv/Lib/site-packages/en_chemner/en_chemner-1.0.0/vocab/strings.json[m[36m:[m  "[1;31msk-[m1",
+[35m.venv/Lib/site-packages/httpcore-1.0.9.dist-info/METADATA[m[36m:[m* Thread-safe / ta[1;31msk-[msafe connection pooling.
+Binary file [35m.venv/Lib/site-packages/huggingface_hub/cli/__pycache__/spaces.cpython-311.pyc[m matches
+[35m.venv/Lib/site-packages/huggingface_hub/cli/spaces.py[m[36m:[m        "hf spaces secrets add username/my-space -s OPENAI_API_KEY=[1;31msk-[m... -s ANTHROPIC_API_KEY=[1;31msk-[m...",
+Binary file [35m.venv/Lib/site-packages/huggingface_hub/inference/_providers/__pycache__/_common.cpython-311.pyc[m matches
+[35m.venv/Lib/site-packages/huggingface_hub/inference/_providers/_common.py[m[36m:[m    """Base class for ta[1;31msk-[mspecific provider helpers."""
+[35m.venv/Lib/site-packages/huggingface_hub/repocard_data.py[m[36m:[m    # Metrics are reported on a unique ta[1;31msk-[mand-dataset basis.
+[35m.venv/Lib/site-packages/joblib/__init__.py[m[36m:[m1. transparent di[1;31msk-[mcaching of functions and lazy re-evaluation
+[35m.venv/Lib/site-packages/joblib/__init__.py[m[36m:[m1) **Transparent and fast di[1;31msk-[mcaching of output value:** a memoize or
+Binary file [35m.venv/Lib/site-packages/joblib/__pycache__/__init__.cpython-311.pyc[m matches
+Binary file [35m.venv/Lib/site-packages/joblib/__pycache__/_dask.cpython-311.pyc[m matches
+[35m.venv/Lib/site-packages/joblib/_dask.py[m[36m:[m    """da[1;31msk-[mcompatible wrapper that executes a batch of tasks"""
+[35m.venv/Lib/site-packages/joblib/memory.py[m[36m:[m# An in-memory store to avoid looking at the di[1;31msk-[mbased function
+Binary file [35m.venv/Lib/site-packages/langcodes/__pycache__/data_dicts.cpython-311.pyc[m matches
+[35m.venv/Lib/site-packages/langcodes/data_dicts.py[m[36m:[m    'nsk': 'n[1;31msk-[mCans-CA',
+[35m.venv/Lib/site-packages/langcodes/data_dicts.py[m[36m:[m    'sk': '[1;31msk-[mLatn-SK',
+[35m.venv/Lib/site-packages/langcodes/data_dicts.py[m[36m:[m    'und-SK': '[1;31msk-[mLatn-SK',
+[35m.venv/Lib/site-packages/langcodes/data_dicts.py[m[36m:[m    'wsk': 'w[1;31msk-[mLatn-ZZ',
+[35m.venv/Lib/site-packages/langsmith-0.10.5.dist-info/RECORD[m[36m:[mlangsmith/integrations/otel/_utils.py,sha256=gC3iDqYiaPFIP5GP0pVEwWtz6bcuR[1;31msk-[m-LgnNSIY_6M,276
+Binary file [35m.venv/Lib/site-packages/langsmith/__pycache__/anonymizer.cpython-311.pyc[m matches
+Binary file [35m.venv/Lib/site-packages/langsmith/__pycache__/async_client.cpython-311.pyc[m matches
+Binary file [35m.venv/Lib/site-packages/langsmith/__pycache__/client.cpython-311.pyc[m matches
+[35m.venv/Lib/site-packages/langsmith/anonymizer.py[m[36m:[m        "pattern": re.compile(r"[1;31msk-[mant-[A-Za-z0-9_-]{20,}"),
+[35m.venv/Lib/site-packages/langsmith/anonymizer.py[m[36m:[m    # OpenAI: project / service-account / admin keys, then legacy `[1;31msk-[m...`
+[35m.venv/Lib/site-packages/langsmith/anonymizer.py[m[36m:[m        "pattern": re.compile(r"[1;31msk-[m(?:proj|svcacct|admin)-[A-Za-z0-9_-]{20,}"),
+[35m.venv/Lib/site-packages/langsmith/anonymizer.py[m[36m:[m    {"pattern": re.compile(r"[1;31msk-[m[A-Za-z0-9]{32,}"), "replace": SECRET_PLACEHOLDER},
+[35m.venv/Lib/site-packages/langsmith/async_client.py[m[36m:[m                references in the manifest, e.g. `{'OPENAI_API_KEY': '[1;31msk-[m...'}`.
+[35m.venv/Lib/site-packages/langsmith/client.py[m[36m:[m                references in the manifest, e.g. `{'OPENAI_API_KEY': '[1;31msk-[m...'}`.
+Binary file [35m.venv/Lib/site-packages/markdown_it/__pycache__/renderer.cpython-311.pyc[m matches
+[35m.venv/Lib/site-packages/markdown_it/presets/__init__.py[m[36m:[m    Note, it lacks ta[1;31msk-[mlist items and raw HTML filtering,
+Binary file [35m.venv/Lib/site-packages/markdown_it/presets/__pycache__/__init__.cpython-311.pyc[m matches
+[35m.venv/Lib/site-packages/markdown_it/renderer.py[m[36m:[m                '<input class="ta[1;31msk-[mlist-item-checkbox"'
+Binary file [35m.venv/Lib/site-packages/markdown_it/rules_block/__pycache__/list.cpython-311.pyc[m matches
+[35m.venv/Lib/site-packages/markdown_it/rules_block/list.py[m[36m:[m                tok.attrJoin("class", "ta[1;31msk-[mlist-item")
+[35m.venv/Lib/site-packages/markdown_it/rules_block/list.py[m[36m:[m            state.tokens[listTokIdx].attrJoin("class", "contains-ta[1;31msk-[mlist")
+Binary file [35m.venv/Lib/site-packages/narwhals/__pycache__/translate.cpython-311.pyc[m matches
+[35m.venv/Lib/site-packages/narwhals/_dask/dataframe.py[m[36m:[m        # https://stackoverflow.com/questions/60831518/in-da[1;31msk-[mhow-does-one-add-a-range-of-integersauto-increment-to-a-new-column/60852409#60852409
+[35m.venv/Lib/site-packages/narwhals/_dask/utils.py[m[36m:[m        # https://github.com/dask/da[1;31msk-[mexpr/issues/1112.
+[35m.venv/Lib/site-packages/narwhals/translate.py[m[36m:[m            msg = "Please install da[1;31msk-[mexpr"
+[35m.venv/Lib/site-packages/numpy/distutils/checks/extra_avx512bw_mask.c[m[36m:[m *    https://developercommunity.visualstudio.com/content/problem/518298/missing-avx512bw-ma[1;31msk-[mintrinsics.html
+[35m.venv/Lib/site-packages/numpy/distutils/checks/extra_avx512dq_mask.c[m[36m:[m *    https://developercommunity.visualstudio.com/content/problem/518298/missing-avx512bw-ma[1;31msk-[mintrinsics.html
+[35m.venv/Lib/site-packages/oauthlib-3.3.1.dist-info/METADATA[m[36m:[m- For Flask there is `fla[1;31msk-[moauthlib`_ and `Fla[1;31msk-[mDance`_.
+[35m.venv/Lib/site-packages/oauthlib-3.3.1.dist-info/METADATA[m[36m:[m.. _`fla[1;31msk-[moauthlib`: https://github.com/lepture/fla[1;31msk-[moauthlib
+[35m.venv/Lib/site-packages/oauthlib-3.3.1.dist-info/METADATA[m[36m:[m.. _`Fla[1;31msk-[mDance`: https://github.com/singingwolfboy/fla[1;31msk-[mdance
+Binary file [35m.venv/Lib/site-packages/onnxruntime/capi/onnxruntime.dll[m matches
+Binary file [35m.venv/Lib/site-packages/onnxruntime/capi/onnxruntime_pybind11_state.pyd[m matches
+[35m.venv/Lib/site-packages/opentelemetry/semconv/_incubating/metrics/system_metrics.py[m[36m:[m  ["Disk\\% Idle Time"](https://learn.microsoft.com/archive/blogs/askcore/windows-performance-monitor-di[1;31msk-[mcounters-explained#windows-performance-monitor-di[1;31msk-[mcounters-explained)
+Binary file [35m.venv/Lib/site-packages/openwakeword/resources/models/hey_mycroft_v0.1.onnx[m matches
+Binary file [35m.venv/Lib/site-packages/openwakeword/resources/models/hey_mycroft_v0.1.tflite[m matches
+Binary file [35m.venv/Lib/site-packages/openwakeword/resources/models/timer_v0.1.onnx[m matches
+Binary file [35m.venv/Lib/site-packages/openwakeword/resources/models/timer_v0.1.tflite[m matches
+Binary file [35m.venv/Lib/site-packages/packaging/licenses/__pycache__/_spdx.cpython-311.pyc[m matches
+[35m.venv/Lib/site-packages/packaging/licenses/_spdx.py[m[36m:[m    'asteri[1;31msk-[mexception': {'id': 'Asteri[1;31msk-[mexception', 'deprecated': False},
+[35m.venv/Lib/site-packages/packaging/licenses/_spdx.py[m[36m:[m    'asteri[1;31msk-[mlinking-protocols-exception': {'id': 'Asteri[1;31msk-[mlinking-protocols-exception', 'deprecated': False},
+Binary file [35m.venv/Lib/site-packages/pip/_vendor/cachecontrol/__pycache__/filewrapper.cpython-311.pyc[m matches
+[35m.venv/Lib/site-packages/pip/_vendor/cachecontrol/filewrapper.py[m[36m:[m    as the temporary files directory is di[1;31msk-[mbased (sometimes it's a
+Binary file [35m.venv/Lib/site-packages/pip/_vendor/distro/__pycache__/distro.cpython-311.pyc[m matches
+[35m.venv/Lib/site-packages/pip/_vendor/distro/distro.py[m[36m:[m    "ple[1;31msk-[mrelease",
+Binary file [35m.venv/Lib/site-packages/pygments/lexers/__pycache__/_cl_builtins.cpython-311.pyc[m matches
+Binary file [35m.venv/Lib/site-packages/pygments/lexers/__pycache__/_css_builtins.cpython-311.pyc[m matches
+Binary file [35m.venv/Lib/site-packages/pygments/lexers/__pycache__/lisp.cpython-311.pyc[m matches
+[35m.venv/Lib/site-packages/pygments/lexers/_cl_builtins.py[m[36m:[m    'maplist', 'ma[1;31msk-[mfield', 'max', 'member', 'member-if', 'member-if-not',
+[35m.venv/Lib/site-packages/pygments/lexers/_css_builtins.py[m[36m:[m    'ma[1;31msk-[mborder',
+[35m.venv/Lib/site-packages/pygments/lexers/_css_builtins.py[m[36m:[m    'ma[1;31msk-[mborder-mode',
+[35m.venv/Lib/site-packages/pygments/lexers/_css_builtins.py[m[36m:[m    'ma[1;31msk-[mborder-outset',
+[35m.venv/Lib/site-packages/pygments/lexers/_css_builtins.py[m[36m:[m    'ma[1;31msk-[mborder-repeat',
+[35m.venv/Lib/site-packages/pygments/lexers/_css_builtins.py[m[36m:[m    'ma[1;31msk-[mborder-slice',
+[35m.venv/Lib/site-packages/pygments/lexers/_css_builtins.py[m[36m:[m    'ma[1;31msk-[mborder-source',
+[35m.venv/Lib/site-packages/pygments/lexers/_css_builtins.py[m[36m:[m    'ma[1;31msk-[mborder-width',
+[35m.venv/Lib/site-packages/pygments/lexers/_css_builtins.py[m[36m:[m    'ma[1;31msk-[mclip',
+[35m.venv/Lib/site-packages/pygments/lexers/_css_builtins.py[m[36m:[m    'ma[1;31msk-[mcomposite',
+[35m.venv/Lib/site-packages/pygments/lexers/_css_builtins.py[m[36m:[m    'ma[1;31msk-[mimage',
+[35m.venv/Lib/site-packages/pygments/lexers/_css_builtins.py[m[36m:[m    'ma[1;31msk-[mmode',
+[35m.venv/Lib/site-packages/pygments/lexers/_css_builtins.py[m[36m:[m    'ma[1;31msk-[morigin',
+[35m.venv/Lib/site-packages/pygments/lexers/_css_builtins.py[m[36m:[m    'ma[1;31msk-[mposition',
+[35m.venv/Lib/site-packages/pygments/lexers/_css_builtins.py[m[36m:[m    'ma[1;31msk-[mrepeat',
+[35m.venv/Lib/site-packages/pygments/lexers/_css_builtins.py[m[36m:[m    'ma[1;31msk-[msize',
+[35m.venv/Lib/site-packages/pygments/lexers/_css_builtins.py[m[36m:[m    'ma[1;31msk-[mtype',
+[35m.venv/Lib/site-packages/pygments/lexers/lisp.py[m[36m:[m        'image-ma[1;31msk-[mp', 'image-metadata', 'image-size', 'imagemagick-types',
+Binary file [35m.venv/Lib/site-packages/pymupdf/mupdfcpp64.dll[m matches
+Binary file [35m.venv/Lib/site-packages/scipy/cluster/tests/__pycache__/hierarchy_test_data.cpython-311.pyc[m matches
+Binary file [35m.venv/Lib/site-packages/scipy/interpolate/tests/__pycache__/test_bsplines.cpython-311.pyc[m matches
+[35m.venv/Lib/site-packages/scipy/interpolate/tests/test_bsplines.py[m[36m:[m    @skip_xp_backends("dask.array", reason="_naive_eval is not da[1;31msk-[mcompatible")
+[35m.venv/Lib/site-packages/scipy/stats/_continuous_distns.py[m[36m:[m            return [[1;31msk-[mg1, ku-g2]
+Binary file [35m.venv/Lib/site-packages/setuptools/_vendor/importlib_metadata/compat/__pycache__/py311.cpython-311.pyc[m matches
+[35m.venv/Lib/site-packages/setuptools/_vendor/importlib_metadata/compat/py311.py[m[36m:[m    An example affected package is da[1;31msk-[mlabextension, which uses
+Binary file [35m.venv/Lib/site-packages/setuptools/_vendor/packaging/licenses/__pycache__/_spdx.cpython-311.pyc[m matches
+[35m.venv/Lib/site-packages/setuptools/_vendor/packaging/licenses/_spdx.py[m[36m:[m    'asteri[1;31msk-[mexception': {'id': 'Asteri[1;31msk-[mexception', 'deprecated': False},
+[35m.venv/Lib/site-packages/setuptools/_vendor/packaging/licenses/_spdx.py[m[36m:[m    'asteri[1;31msk-[mlinking-protocols-exception': {'id': 'Asteri[1;31msk-[mlinking-protocols-exception', 'deprecated': False},
+[35m.venv/Lib/site-packages/sklearn/datasets/tests/test_openml.py[m[36m:[m# Disable the di[1;31msk-[mbased cache when testing `fetch_openml`:
+Binary file [35m.venv/Lib/site-packages/sklearn/svm/tests/__pycache__/test_svm.cpython-311.pyc[m matches
+[35m.venv/Lib/site-packages/sklearn/svm/tests/test_svm.py[m[36m:[m    ids=["ma[1;31msk-[mlabel-1", "ma[1;31msk-[mlabel-2"],
+[35m.venv/Lib/site-packages/sklearn/svm/tests/test_svm.py[m[36m:[m    ids=["partial-ma[1;31msk-[mlabel-1", "partial-ma[1;31msk-[mlabel-2"],
+[35m.venv/Lib/site-packages/sklearn/svm/tests/test_svm.py[m[36m:[m    ids=["partial-ma[1;31msk-[mlabel-1", "partial-ma[1;31msk-[mlabel-2"],
+Binary file [35m.venv/Lib/site-packages/sklearn/utils/_repr_html/__pycache__/estimator.cpython-311.pyc[m matches
+[35m.venv/Lib/site-packages/sklearn/utils/_repr_html/estimator.css[m[36m:[m.[1;31msk-[mglobal {
+[35m.venv/Lib/site-packages/sklearn/utils/_repr_html/estimator.css[m[36m:[m.[1;31msk-[mglobal.light {
+[35m.venv/Lib/site-packages/sklearn/utils/_repr_html/estimator.css[m[36m:[m.[1;31msk-[mglobal.dark {
+[35m.venv/Lib/site-packages/sklearn/utils/_repr_html/estimator.css[m[36m:[m.[1;31msk-[mglobal {
+[35m.venv/Lib/site-packages/sklearn/utils/_repr_html/estimator.css[m[36m:[m.[1;31msk-[mglobal pre {
+[35m.venv/Lib/site-packages/sklearn/utils/_repr_html/estimator.css[m[36m:[m.[1;31msk-[mglobal input.[1;31msk-[mhidden--visually {
+[35m.venv/Lib/site-packages/sklearn/utils/_repr_html/estimator.css[m[36m:[m.[1;31msk-[mglobal div.[1;31msk-[mdashed-wrapped {
+[35m.venv/Lib/site-packages/sklearn/utils/_repr_html/estimator.css[m[36m:[m.[1;31msk-[mglobal div.[1;31msk-[mcontainer {
+[35m.venv/Lib/site-packages/sklearn/utils/_repr_html/estimator.css[m[36m:[m.[1;31msk-[mglobal div.[1;31msk-[mtext-repr-fallback {
+[35m.venv/Lib/site-packages/sklearn/utils/_repr_html/estimator.css[m[36m:[mdiv.[1;31msk-[mparallel-item,
+[35m.venv/Lib/site-packages/sklearn/utils/_repr_html/estimator.css[m[36m:[mdiv.[1;31msk-[mserial,
+[35m.venv/Lib/site-packages/sklearn/utils/_repr_html/estimator.css[m[36m:[mdiv.[1;31msk-[mitem {
+[35m.venv/Lib/site-packages/sklearn/utils/_repr_html/estimator.css[m[36m:[m.[1;31msk-[mglobal div.[1;31msk-[mparallel-item::after {
+[35m.venv/Lib/site-packages/sklearn/utils/_repr_html/estimator.css[m[36m:[m.[1;31msk-[mglobal div.[1;31msk-[mparallel {
+[35m.venv/Lib/site-packages/sklearn/utils/_repr_html/estimator.css[m[36m:[m.[1;31msk-[mglobal div.[1;31msk-[mparallel-item {
+[35m.venv/Lib/site-packages/sklearn/utils/_repr_html/estimator.css[m[36m:[m.[1;31msk-[mglobal div.[1;31msk-[mparallel-item:first-child::after {
+[35m.venv/Lib/site-packages/sklearn/utils/_repr_html/estimator.css[m[36m:[m.[1;31msk-[mglobal div.[1;31msk-[mparallel-item:last-child::after {
+[35m.venv/Lib/site-packages/sklearn/utils/_repr_html/estimator.css[m[36m:[m.[1;31msk-[mglobal div.[1;31msk-[mparallel-item:only-child::after {
+[35m.venv/Lib/site-packages/sklearn/utils/_repr_html/estimator.css[m[36m:[m.[1;31msk-[mglobal div.[1;31msk-[mserial {
+[35m.venv/Lib/site-packages/sklearn/utils/_repr_html/estimator.css[m[36m:[m- Estimators will overwrite some part of the style using the `[1;31msk-[mestimator` class
+[35m.venv/Lib/site-packages/sklearn/utils/_repr_html/estimator.css[m[36m:[m.[1;31msk-[mglobal div.[1;31msk-[mtoggleable {
+[35m.venv/Lib/site-packages/sklearn/utils/_repr_html/estimator.css[m[36m:[m.[1;31msk-[mglobal label.[1;31msk-[mtoggleable__label {
+[35m.venv/Lib/site-packages/sklearn/utils/_repr_html/estimator.css[m[36m:[m.[1;31msk-[mglobal label.[1;31msk-[mtoggleable__label .caption {
+[35m.venv/Lib/site-packages/sklearn/utils/_repr_html/estimator.css[m[36m:[m.[1;31msk-[mglobal label.[1;31msk-[mtoggleable__label-arrow:before {
+[35m.venv/Lib/site-packages/sklearn/utils/_repr_html/estimator.css[m[36m:[m.[1;31msk-[mglobal label.[1;31msk-[mtoggleable__label-arrow:hover:before {
+[35m.venv/Lib/site-packages/sklearn/utils/_repr_html/estimator.css[m[36m:[m.[1;31msk-[mglobal div.[1;31msk-[mtoggleable__content {
+[35m.venv/Lib/site-packages/sklearn/utils/_repr_html/estimator.css[m[36m:[m.[1;31msk-[mglobal div.[1;31msk-[mtoggleable__content.fitted {
+[35m.venv/Lib/site-packages/sklearn/utils/_repr_html/estimator.css[m[36m:[m.[1;31msk-[mglobal div.[1;31msk-[mtoggleable__content pre {
+[35m.venv/Lib/site-packages/sklearn/utils/_repr_html/estimator.css[m[36m:[m.[1;31msk-[mglobal div.[1;31msk-[mtoggleable__content.fitted pre {
+[35m.venv/Lib/site-packages/sklearn/utils/_repr_html/estimator.css[m[36m:[m.[1;31msk-[mglobal input.[1;31msk-[mtoggleable__control:checked~div.[1;31msk-[mtoggleable__content {
+[35m.venv/Lib/site-packages/sklearn/utils/_repr_html/estimator.css[m[36m:[m.[1;31msk-[mglobal input.[1;31msk-[mtoggleable__control:checked~label.[1;31msk-[mtoggleable__label-arrow:before {
+[35m.venv/Lib/site-packages/sklearn/utils/_repr_html/estimator.css[m[36m:[m.[1;31msk-[mglobal div.[1;31msk-[mlabel input.[1;31msk-[mtoggleable__control:checked~label.[1;31msk-[mtoggleable__label {
+[35m.venv/Lib/site-packages/sklearn/utils/_repr_html/estimator.css[m[36m:[m.[1;31msk-[mglobal div.[1;31msk-[mlabel.fitted input.[1;31msk-[mtoggleable__control:checked~label.[1;31msk-[mtoggleable__label {
+[35m.venv/Lib/site-packages/sklearn/utils/_repr_html/estimator.css[m[36m:[m.[1;31msk-[mglobal div.[1;31msk-[mestimator input.[1;31msk-[mtoggleable__control:checked~label.[1;31msk-[mtoggleable__label {
+[35m.venv/Lib/site-packages/sklearn/utils/_repr_html/estimator.css[m[36m:[m.[1;31msk-[mglobal div.[1;31msk-[mestimator.fitted input.[1;31msk-[mtoggleable__control:checked~label.[1;31msk-[mtoggleable__label {
+[35m.venv/Lib/site-packages/sklearn/utils/_repr_html/estimator.css[m[36m:[m.[1;31msk-[mglobal div.[1;31msk-[mlabel label.[1;31msk-[mtoggleable__label,
+[35m.venv/Lib/site-packages/sklearn/utils/_repr_html/estimator.css[m[36m:[m.[1;31msk-[mglobal div.[1;31msk-[mlabel label {
+[35m.venv/Lib/site-packages/sklearn/utils/_repr_html/estimator.css[m[36m:[m.[1;31msk-[mglobal div.[1;31msk-[mlabel:hover label.[1;31msk-[mtoggleable__label {
+[35m.venv/Lib/site-packages/sklearn/utils/_repr_html/estimator.css[m[36m:[m.[1;31msk-[mglobal div.[1;31msk-[mlabel.fitted:hover label.[1;31msk-[mtoggleable__label.fitted {
+[35m.venv/Lib/site-packages/sklearn/utils/_repr_html/estimator.css[m[36m:[m.[1;31msk-[mglobal div.[1;31msk-[mlabel label {
+[35m.venv/Lib/site-packages/sklearn/utils/_repr_html/estimator.css[m[36m:[m.[1;31msk-[mglobal div.[1;31msk-[mlabel-container {
+[35m.venv/Lib/site-packages/sklearn/utils/_repr_html/estimator.css[m[36m:[m.[1;31msk-[mglobal div.[1;31msk-[mestimator {
+[35m.venv/Lib/site-packages/sklearn/utils/_repr_html/estimator.css[m[36m:[m.[1;31msk-[mglobal div.[1;31msk-[mestimator.fitted {
+[35m.venv/Lib/site-packages/sklearn/utils/_repr_html/estimator.css[m[36m:[m.[1;31msk-[mglobal div.[1;31msk-[mestimator:hover {
+[35m.venv/Lib/site-packages/sklearn/utils/_repr_html/estimator.css[m[36m:[m.[1;31msk-[mglobal div.[1;31msk-[mestimator.fitted:hover {
+[35m.venv/Lib/site-packages/sklearn/utils/_repr_html/estimator.css[m[36m:[m.[1;31msk-[mestimator-doc-link,
+[35m.venv/Lib/site-packages/sklearn/utils/_repr_html/estimator.css[m[36m:[ma:link.[1;31msk-[mestimator-doc-link,
+[35m.venv/Lib/site-packages/sklearn/utils/_repr_html/estimator.css[m[36m:[ma:visited.[1;31msk-[mestimator-doc-link {
+[35m.venv/Lib/site-packages/sklearn/utils/_repr_html/estimator.css[m[36m:[m.[1;31msk-[mestimator-doc-link.fitted,
+[35m.venv/Lib/site-packages/sklearn/utils/_repr_html/estimator.css[m[36m:[ma:link.[1;31msk-[mestimator-doc-link.fitted,
+[35m.venv/Lib/site-packages/sklearn/utils/_repr_html/estimator.css[m[36m:[ma:visited.[1;31msk-[mestimator-doc-link.fitted {
+[35m.venv/Lib/site-packages/sklearn/utils/_repr_html/estimator.css[m[36m:[mdiv.[1;31msk-[mestimator:hover .[1;31msk-[mestimator-doc-link:hover,
+[35m.venv/Lib/site-packages/sklearn/utils/_repr_html/estimator.css[m[36m:[m.[1;31msk-[mestimator-doc-link:hover,
+[35m.venv/Lib/site-packages/sklearn/utils/_repr_html/estimator.css[m[36m:[mdiv.[1;31msk-[mlabel-container:hover .[1;31msk-[mestimator-doc-link:hover,
+[35m.venv/Lib/site-packages/sklearn/utils/_repr_html/estimator.css[m[36m:[m.[1;31msk-[mestimator-doc-link:hover {
+[35m.venv/Lib/site-packages/sklearn/utils/_repr_html/estimator.css[m[36m:[mdiv.[1;31msk-[mestimator.fitted:hover .[1;31msk-[mestimator-doc-link.fitted:hover,
+[35m.venv/Lib/site-packages/sklearn/utils/_repr_html/estimator.css[m[36m:[m.[1;31msk-[mestimator-doc-link.fitted:hover,
+[35m.venv/Lib/site-packages/sklearn/utils/_repr_html/estimator.css[m[36m:[mdiv.[1;31msk-[mlabel-container:hover .[1;31msk-[mestimator-doc-link.fitted:hover,
+[35m.venv/Lib/site-packages/sklearn/utils/_repr_html/estimator.css[m[36m:[m.[1;31msk-[mestimator-doc-link.fitted:hover {
+[35m.venv/Lib/site-packages/sklearn/utils/_repr_html/estimator.css[m[36m:[m.[1;31msk-[mestimator-doc-link span {
+[35m.venv/Lib/site-packages/sklearn/utils/_repr_html/estimator.css[m[36m:[m.[1;31msk-[mestimator-doc-link.fitted span {
+[35m.venv/Lib/site-packages/sklearn/utils/_repr_html/estimator.css[m[36m:[m.[1;31msk-[mestimator-doc-link:hover span {
+[35m.venv/Lib/site-packages/sklearn/utils/_repr_html/estimator.css[m[36m:[m.[1;31msk-[mglobal a.estimator_doc_link {
+[35m.venv/Lib/site-packages/sklearn/utils/_repr_html/estimator.css[m[36m:[m.[1;31msk-[mglobal a.estimator_doc_link.fitted {
+[35m.venv/Lib/site-packages/sklearn/utils/_repr_html/estimator.css[m[36m:[m.[1;31msk-[mglobal a.estimator_doc_link:hover {
+[35m.venv/Lib/site-packages/sklearn/utils/_repr_html/estimator.css[m[36m:[m.[1;31msk-[mglobal a.estimator_doc_link.fitted:hover {
+[35m.venv/Lib/site-packages/sklearn/utils/_repr_html/estimator.css[m[36m:[m.[1;31msk-[mtop-container.[1;31msk-[mglobal {
