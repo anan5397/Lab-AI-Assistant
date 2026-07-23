@@ -23,8 +23,7 @@ cursor.execute(
         id,
         chemical_name,
         start_page,
-        end_page,
-        text
+        end_page
     FROM chemicals
     """
 )
@@ -48,14 +47,14 @@ for row in rows:
 
     chemical_id = row[0]
     chemical_name = row[1]
-    page = row[2]
-    text = row[3]
+    start_page = row[2]
+    end_page = row[3]
 
 
     # Convert text into vector
 
     embedding = model.encode(
-        text
+        chemical_name
     ).tolist()
 
 
@@ -65,9 +64,6 @@ for row in rows:
             str(chemical_id)
         ],
 
-        documents=[
-            text
-        ],
 
         embeddings=[
             embedding
@@ -76,7 +72,8 @@ for row in rows:
         metadatas=[
             {
                 "chemical": chemical_name,
-                "page": page
+                "start_page": start_page,
+                "end_page": end_page
             }
         ]
     )
