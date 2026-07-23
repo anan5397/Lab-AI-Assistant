@@ -18,7 +18,7 @@ load_dotenv(override=True) #this loads the environment variables from the .env f
 PIPER_EXE = r"C:\Users\anan_ra\Desktop\piper\piper.exe"
 MODEL1 = r"C:\Users\anan_ra\Desktop\piper\voices\en_US-lessac-medium.onnx"
 
-print("SEE IF THIS WORKS IN GITHUB")
+print("Working in the branch")
 AI_state = "waiting for wake word"
 def speak(text):
     subprocess.run(

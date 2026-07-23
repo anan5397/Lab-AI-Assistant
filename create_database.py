@@ -1,24 +1,56 @@
 import sqlite3
+import json
 
-# Create or open the database file
-conn = sqlite3.connect("hazcard.db")
+# -----------------------------
+# Connect to (or create) SQLite database
+# -----------------------------
+connection = sqlite3.connect("hazcard.db")
 
-# Create something that can execute SQL commands
-cursor = conn.cursor()
+# Create a cursor to execute SQL commands
+cursor = connection.cursor()
 
-# Create a table
+# -----------------------------
+# Create the chemicals table
+# -----------------------------
 cursor.execute("""
 CREATE TABLE IF NOT EXISTS chemicals (
     id INTEGER PRIMARY KEY AUTOINCREMENT,
-    chemical_name TEXT NOT NULL,
-    page_number INTEGER NOT NULL
+    chemical_name TEXT NOT NULL UNIQUE,
+    start_page INTEGER NOT NULL,
+    end_page INTEGER NOT NULL
 )
 """)
 
+# -----------------------------
+# Open the JSON file
+# -----------------------------
+with open("cleapss.json", "r") as file:
+    chemicals = json.load(file)
+
+# -----------------------------
+# Insert each chemical into SQLite
+# -----------------------------
+for chemical in chemicals:
+
+    cursor.execute("""
+    INSERT INTO chemicals
+    (chemical_name, start_page, end_page)
+    VALUES (?, ?, ?)
+    """,
+    (
+        chemical["chemical"],
+        chemical["start_page"],
+        chemical["end_page"]
+    ))
+
+# -----------------------------
 # Save changes
-conn.commit()
+# -----------------------------
+connection.commit()
 
-# Close the database
-conn.close()
+# -----------------------------
+# Close database
+# -----------------------------
+connection.close()
 
-print("Database created!")
+print("Database created successfully!")
