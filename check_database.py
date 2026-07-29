@@ -4,9 +4,9 @@ import json
 connection = sqlite3.connect("hazcard.db")
 cursor = connection.cursor()
 
-cursor.execute("SELECT * FROM chemicals")
+cursor.execute("SELECT * FROM chemicals") #Select all columns from a table called "Chemicals"
 
-rows = cursor.fetchall()
+rows = cursor.fetchall() #All the rows from the query are fetched and stored in the variable "rows". "Give me all the rows that resulted from the last query."
 
 for row in rows:
 

@@ -37,7 +37,7 @@ with open("cleapss.json", "r") as file:
 for chemical in chemicals:
 
     cursor.execute("""
-    INSERT INTO chemicals
+    INSERT OR REPLACE INTO chemicals
     (chemical_name, aliases, chemical_group, hazcard, start_page, end_page, molecular_weight)
     VALUES (?, ?, ?, ?, ?, ?, ?)
     """,
