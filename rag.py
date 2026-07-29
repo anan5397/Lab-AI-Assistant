@@ -1,29 +1,50 @@
 import chromadb
 from sentence_transformers import SentenceTransformer
+import fitz
 
-# Load the same embedding model you used in create_chroma.py
-model = SentenceTransformer("all-MiniLM-L6-v2")
+# Load embedding model
+model = SentenceTransformer(
+    "all-MiniLM-L6-v2"
+)
 
-# Connect to the existing Chroma database
-client = chromadb.PersistentClient(path="./chroma_db")
+client = chromadb.PersistentClient(      #This line creates a persistent ChromaDB client that stores the database in the specified path. The database will be saved in the "chroma_db" directory, allowing for data persistence across sessions.
+    path="./chroma_db"
+)
 
-# Open the collection
-collection = client.get_collection(name="cleapss")
+collection = client.get_collection(
+    name="cleapss"
+)
+
+pdf = fitz.open("hazcard.pdf")
 
 
-def search_chroma(question):
-    # Convert the question into an embedding
-    question_embedding = model.encode(question).tolist()
+def retrieve_context(test_question):
+    query_embedding = model.encode(    #Does the embedding part 
+        test_question
+    ).tolist()
 
-    # Search the collection
-    results = collection.query(
-        query_embeddings=[question_embedding],
-        n_results=1   #Controls how many results you want to retrieve.
+    results = collection.query(        #Finds answers in the collections (aka the database)
+        query_embeddings=[query_embedding],
+        n_results=3
     )
 
-    metadata = results["metadatas"][0][0] #Return only the page number of the first result. You can modify this to return more information if needed.
-    return (
-        metadata["chemical"],
-        metadata["start_page"],
-        metadata["end_page"]
-    )
+    best = results["metadatas"][0][0]
+
+    start_page = best["start_page"]
+    end_page = best["end_page"]
+    #print("Best result: ", best)
+
+    context = ""
+
+    for page_num in range(start_page - 1, end_page):
+
+        page = pdf.load_page(page_num)
+
+        context += f"\n========== PAGE {page_num + 1} ==========\n"
+
+        context += page.get_text("text", sort=True) #sort = True ensures that the text is extracted in a logical reading order, which is especially useful for documents with complex layouts or multiple columns.
+
+        context += "\n"
+
+    print("Extracted text: ", context)
+    return context
