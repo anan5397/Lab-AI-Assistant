@@ -21,4 +21,9 @@ def search_chroma(question):
         n_results=1   #Controls how many results you want to retrieve.
     )
 
-    return results
+    metadata = results["metadatas"][0][0] #Return only the page number of the first result. You can modify this to return more information if needed.
+    return (
+        metadata["chemical"],
+        metadata["start_page"],
+        metadata["end_page"]
+    )

@@ -66,7 +66,7 @@ for row in rows:
 
 
         embeddings=[
-            embedding
+            embedding         #where the vector is stored. 
         ],
 
         metadatas=[

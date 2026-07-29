@@ -1,22 +1,118 @@
 [
   {
-    "chemical": "Aluminium",
+    "chemical_name": "Aluminium",
+    "aliases": [
+        "Aluminum",
+        "aluminium"
+    ],
+    "chemical_group": "Metal and alloys",
+    "hazcard": "2A",
     "start_page": 7,
-    "end_page": 8
+    "end_page": 8,
+    "molecular_weight": 26.98
   },
   {
-    "chemical": "Ammonia",
-    "start_page": 29,
-    "end_page": 32
+    "chemical_name": "Aluminium chloride",
+    "aliases": [
+        "aluminium chloride",
+        "aluminum chloride",
+        "AlCl3"
+    ],
+    "chemical_group": "Aluminium compounds",
+    "hazcard": "2A",
+    "start_page": 11,
+    "end_page": 12,
+    "molecular_weight": 133.34
   },
   {
-    "chemical": "Boron",
-    "start_page": 59,
-    "end_page": 62
+    "chemical_name": "Aluminium bromide",
+    "aliases": [
+        "aluminium bromide",
+        "aluminum bromide",
+        "AlBr3"
+    ],
+    "chemical_group": "Aluminium compounds",
+    "hazcard": "2A",
+    "start_page": 11,
+    "end_page": 12,
+    "molecular_weight": 266.69
+
   },
   {
-    "chemical": "Enzymes",
-    "start_page": 115,
-    "end_page": 116
+    "chemical_name": "Barium metal",
+    "aliases": [
+        "barium",
+        "Ba"
+    ],
+    "chemical_group": "Barium metal, barium carbonate and chloride",
+    "hazcard": "10A",
+    "start_page": 43,
+    "end_page": 44,
+    "molecular_weight": 137.30
+  },
+   {
+    "chemical_name": "Barium chloride-2-water",
+    "aliases": [
+        "barium chloride dihydrate",
+        "BaCl2·2H2O"
+    ],
+    "chemical_group": "Barium metal, barium carbonate and chloride",
+    "hazcard": "10A",
+    "start_page": 43,
+    "end_page": 44,
+    "molecular_weight": 244.26
+  },
+   {
+    "chemical_name": "Hydrochloric acid",
+    "aliases": [
+        "HCl",
+        "hydrochloric acid"
+    ],
+    "chemical_group": "Acid",
+    "hazcard": "47A",
+    "start_page": 173,
+    "end_page": 174,
+    "molecular_weight": 36.46
+  },
+   {
+    "chemical_name": "Iron metal",
+    "aliases": [
+        "Iron powder",
+        "Fe",
+        "Pure iron",
+        "Iron filings",
+        "Iron filing",
+        "iron filing"
+    ],
+    "chemical_group": "Iron, its carbonate, oxides and sulfides",
+    "hazcard": "55A",
+    "start_page": 195,
+    "end_page": 196,
+    "molecular_weight": 55.85
+  },
+  {
+    "chemical_name": "Oxygen",
+    "aliases": [
+        "Oxygen gas",
+        "O2"
+    ],
+    "chemical_group": "Gases",
+    "hazcard": "69",
+    "start_page": 237,
+    "end_page": 238,
+    "molecular_weight": 31.99
+  },
+  {
+    "chemical_name": "Potassium",
+    "aliases": [
+        "potassium",
+        "K"
+    ],
+    "chemical_group": "Alkali metals",
+    "hazcard": "76",
+    "start_page": 259,
+    "end_page": 260,
+    "molecular_weight": 39.10
   }
 ]
+
