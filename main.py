@@ -7,6 +7,8 @@ from scipy.io.wavfile import write,read
 import numpy as np
 from openwakeword.model import Model
 import subprocess
+from rag import retrieve_context
+import time
 
 model = Model(inference_framework="onnx")
 
@@ -19,8 +21,9 @@ PIPER_EXE = r"C:\Users\anan_ra\Desktop\piper\piper.exe"
 MODEL1 = r"C:\Users\anan_ra\Desktop\piper\voices\en_US-lessac-medium.onnx"
 
 print("Working in the branch")
-AI_state = "waiting for wake word"
+AI_state = "waiting_for_wake_word"
 def speak(text):
+    global last_speech_time
     subprocess.run(
         [PIPER_EXE, "-m", MODEL1, "-f", "output.wav"], #Save the output as output.wav
         input=text,
@@ -30,6 +33,7 @@ def speak(text):
 
     sd.play(audio_data, sample_rate)
     sd.wait()
+    last_speech_time = time.time()  # Update the last speech time after speaking
 
 client = OpenAI(
         api_key=os.getenv("OPENAI_API_KEY")
@@ -38,10 +42,11 @@ client = OpenAI(
 model_whisper = WhisperModel("small.en")
 
 audio_buffer = []
+conversation_end = False
 print("Jarvis is sleeping")
 print(AI_state)
 AI_state = "waiting_for_wake_word"
-
+last_speech_time = 0
 def callback(indata, frames, time, status): #This goes on in the background and keeps listening for the wake word.
     global AI_state
     global audio_buffer #This is a list that stores the audio data that is being recorded. It is used to store the audio data that is being recorded while the AI is listening for the wake word.
@@ -85,21 +90,14 @@ def callback(indata, frames, time, status): #This goes on in the background and 
         pass
 
 
-conversation = [
-    {
-        "role": "system",
-        "content": "You are a laboratory safety assistant."
-    }
-]
-
 import time
 SAMPLE_RATE = 16000
 CHUNK_SIZE = 1280
 with sd.InputStream(
-    samplerate=16000,
+    samplerate=SAMPLE_RATE,
     channels=1,
     dtype="int16",
-    blocksize=1280,
+    blocksize=CHUNK_SIZE,
     callback=callback
 ):
     while True:
@@ -114,76 +112,77 @@ with sd.InputStream(
             segments, info = model_whisper.transcribe("command.wav") #extracting the text from the audio file using whisper model.
             
             question = ""
+            conversation_end = False
             for segment in segments:
                 print(segment.text)
                 question += segment.text + " "
-                conversation_end = False
-                if "goodbye" in question.lower() or "thank you" in question.lower():
-                    AI_state = "waiting_for_wake_word"
-                    audio_buffer = []
-                    print("AI is waiting for wake word...")
-                    conversation_end = True
-            with open("cleapss.txt", "r") as file:
-               cleapss_data = file.read()
+
+
+            if "goodbye" in question.lower() or "thank you" in question.lower():
+                conversation_end = True
+
+            if conversation_end:
+                speak("Goodbye")
+                AI_state = "waiting_for_wake_word"
+                audio_buffer = []
+                continue
+
+            print("Searching CLEAPSS database...")
+
+            # Retrieve relevant CLEAPSS information from ChromaDB
+            context = retrieve_context(question)
+            if context == "":
+                context = "No relevant CLEAPSS information found."
 
             print("Sending to GPT...")
-            
-            # Find relevant lines
-            relevant_lines = []
 
-  
 
-            for line in cleapss_data.splitlines():
+            messages = [
+                {
+                    "role": "system",
+                    "content": """
+            You are a laboratory safety assistant.
 
-                # Split question into words
-                question_words = question.lower().split()
+            Answer questions using the CLEAPSS safety information provided.
+            If the information is not available, say you do not know.
 
-                for word in question_words:
-
-                    # Check if word exists in line
-                    if word in line.lower():
-                        relevant_lines.append(line)
-                        break
-
-            # Join relevant results
-            context = "\n".join(relevant_lines)
-
-            prompt = f"""
-            Give only the final answer in one sentence.
-
-            Do not explain the steps unless asked.
-
+            Give a concise answer.
+            Include important safety warnings when relevant.
+            Do not invent information.
+            Do not explain steps unless asked.
             Use plain text only.
+            """
+                },
+                {
+                    "role": "user",
+                    "content": f"""
+            CLEAPSS Safety Information:
 
-            Safety Information:
             {context}
 
+
             Question:
+
             {question}
             """
-            conversation.append(
-             {
-                  "role": "user",
-                  "content": prompt
-             }
-                )
+                }
+            ]
+
+
             # Send to ChatGPT
-            global response
             response = client.chat.completions.create(
                 model="gpt-4.1-mini",
-                messages=conversation
-            ) 
-            conversation.append(
-                {
-                    "role": "assistant",
-                    "content": response.choices[0].message.content
-                }
+                messages=messages
             )
+
+
+            print(response.choices[0].message.content)
             #Send questions to CHATGPT as a user. 
             if conversation_end == True:
                 speak("Goodbye")
                 AI_state = "waiting_for_wake_word"
                 audio_buffer = []
+
                 print("AI is waiting for wake word...")
                 conversation_end = False
             else:
