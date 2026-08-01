@@ -9,6 +9,7 @@ from openwakeword.model import Model
 import subprocess
 from rag import retrieve_context
 import time
+from ai_service import generate_answer
 
 model = Model(inference_framework="onnx")
 
@@ -112,71 +113,16 @@ with sd.InputStream(
             segments, info = model_whisper.transcribe("command.wav") #extracting the text from the audio file using whisper model.
             
             question = ""
-            conversation_end = False
+
             for segment in segments:
                 print(segment.text)
                 question += segment.text + " "
 
 
-            if "goodbye" in question.lower() or "thank you" in question.lower():
-                conversation_end = True
-
-            if conversation_end:
-                speak("Goodbye")
-                AI_state = "waiting_for_wake_word"
-                audio_buffer = []
-                continue
-
-            print("Searching CLEAPSS database...")
-
-            # Retrieve relevant CLEAPSS information from ChromaDB
-            context = retrieve_context(question)
-            if context == "":
-                context = "No relevant CLEAPSS information found."
-
-            print("Sending to GPT...")
+            reply = generate_answer(question)
 
 
-            messages = [
-                {
-                    "role": "system",
-                    "content": """
-            You are a laboratory safety assistant.
-
-            Answer questions using the CLEAPSS safety information provided.
-            If the information is not available, say you do not know.
-
-            Give a concise answer.
-            Include important safety warnings when relevant.
-            Do not invent information.
-            Do not explain steps unless asked.
-            Use plain text only.
-            """
-                },
-                {
-                    "role": "user",
-                    "content": f"""
-            CLEAPSS Safety Information:
-
-            {context}
-
-
-            Question:
-
-            {question}
-            """
-                }
-            ]
-
-
-            # Send to ChatGPT
-            response = client.chat.completions.create(
-                model="gpt-4.1-mini",
-                messages=messages
-            )
-
-
-            print(response.choices[0].message.content)
+            print(reply.choices[0].message.content)
             #Send questions to CHATGPT as a user. 
             if conversation_end == True:
                 speak("Goodbye")
