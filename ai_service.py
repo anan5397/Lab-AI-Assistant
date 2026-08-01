@@ -10,12 +10,6 @@ client = OpenAI(
     api_key=os.getenv("OPENAI_API_KEY")
 )
 
-from dotenv import load_dotenv
-import os
-
-load_dotenv(override=True)
-
-print("KEY:", os.getenv("OPENAI_API_KEY"))
 
 def generate_answer(question: str):
 
